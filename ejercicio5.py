@@ -34,4 +34,4 @@ class zoo:
         pass
 
 
-zoo1=zoo(stock({"carne":1000,"verdura":1000,"insectos":1000}),[cuidador("pepe","galan",["girafa"]),cuidador("juan","perez",["leon"]),cuidador("javi","fdz",["sapo"]),["girafa","leon","sapo"])
+zoo1=zoo(stock({"carne":1000,"verdura":1000,"insectos":1000}),[cuidador("pepe","galan",["girafa"]),cuidador("juan","perez",["leon"]),cuidador("javi","fdz",["sapo"])],["girafa","leon","sapo"])
