@@ -25,3 +25,6 @@ class herbivoros:
 class insectivoros:
     def __init__(self):
         pass
+
+print("puerca")
+

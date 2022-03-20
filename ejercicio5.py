@@ -3,7 +3,10 @@ class animal:
         pass
 
 class cuidador:
-    def __init__(self,animales,vacaciones):
+    def __init__(self,nombre,apellido,animales_cuidador):
+        self.nombre = nombre
+        self.apellido = apellido
+        self.animales_cuidador = animales_cuidador
         pass
 
 class stock:
@@ -26,6 +29,9 @@ class zoo:
         self.cuidadores = cuidadores
         self.animales = animales
     def cuidar(self,cuidador,animal):
-        print(f'el {cuidador}, cuidara a {animal}')
+        print(f'{cuidador}, cuidara a {animal}')
     def coger_vacaciones(self,cuidador,inicio,duracion):
         pass
+
+
+zoo1=zoo(stock({"carne":1000,"verdura":1000,"insectos":1000}),[cuidador("pepe","galan",["girafa"]),cuidador("juan","perez",["leon"]),cuidador("javi","fdz",["sapo"]),["girafa","leon","sapo"])
